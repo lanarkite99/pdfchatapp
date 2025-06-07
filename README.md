@@ -2,6 +2,7 @@
 
 A **web application** that allows users to upload **financial PDFs** and query their content (e.g., revenue, income) using natural language, powered by **AI and vector search**. Built with **FastAPI (backend)** and **React (frontend)**, the app leverages **Vertex AI (gemini-2.0-flash-lite)** and a locally hosted **LLaMA 3.2 1B-Instruct** model for answers, with **embeddings** stored in **FAISS**and data managed in **Google Cloud Storage (GCS)**. Deployed on **Cloud Run (us-central1)**.
 
+![diagram-export-6-4-2025-1_46_30-PM](https://github.com/user-attachments/assets/4b8ab033-d1cd-4525-b374-115344a8e511)
 
 ## **Features**
 - 📄 Upload financial PDFs and query metrics (e.g., "What is the Q1 2025 revenue?") via a user-friendly React interface.
